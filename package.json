@@ -1,0 +1,27 @@
+{
+  "name": "gerbang-permainan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hub Gerbang Permainan: satu pintu (PIN guru) ke semua game Clash of Git + Multi Permainan + Hall of Fame",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "install:semua": "node scripts/install.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/start.mjs",
+    "dev": "node --watch scripts/start.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:game": "node scripts/test-games.mjs",
+    "test:e2e": "node tests/e2e/e2e.mjs",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "^5.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "playwright-core": "^1.50.0"
+  }
+}

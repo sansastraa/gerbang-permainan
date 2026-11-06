@@ -1,0 +1,48 @@
+
+Gerbang Permainan di http://localhost:8000
+PIN guru: 1234   (sumber: bawaan 1234 (ubah lewat tab PIN di hub))
+[tower-peek]   > @tower-peek/server@0.1.0 start
+[tower-peek]   > tsx src/main.ts
+[claim80]      > @claim80/server@0.1.0 start
+[claim80]      > tsx src/main.ts
+[transit-rush] > @transit-rush/server@0.1.0 start
+[transit-rush] > tsx src/main.ts
+[logic-rush]   > @logic-rush/server@0.1.0 start
+[logic-rush]   > tsx src/main.ts
+[glacia]       > @glacia/server@0.1.0 start
+[glacia]       > node dist/main.js
+[route-rush]   > @route-rush/server@0.1.0 start
+[route-rush]   > node --import tsx src/main.ts
+[transit-rush] TRANSIT RUSH berjalan di port 3110
+[transit-rush]   Guru     : http://localhost:3110/games/transit-rush/host   (PIN guru: 1234)
+[transit-rush]   Murid    : http://192.168.18.61:3110/games/transit-rush/
+[transit-rush]   Proyektor: /games/transit-rush/display?pin=<PIN sesi>
+[logic-rush]   LOGIC RUSH berjalan di port 3090
+[route-rush]   Route Rush server berjalan di port 3000 (127.0.0.1, development, awalan /games/route-rush); data di D:\gerbang-permainan\data\route-rush
+[logic-rush]     Guru     : http://localhost:3090/games/logic-rush/host   (PIN guru: 1234)
+[logic-rush]     Murid    : http://192.168.18.61:3090/games/logic-rush/
+[logic-rush]     Penonton : /games/logic-rush/watch   ·   OBS: /games/logic-rush/obs?pin=<PIN sesi>&key=<kunci OBS>
+[logic-rush]   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+[logic-rush]   █ ▄▄▄▄▄ ██▄▄ ▀ ▄█▀▄▀█ █ ▄▄▄▄▄ █
+[logic-rush]   █ █   █ █▀▄  █▀  ▀▀ ▄██ █   █ █
+[logic-rush]   █ █▄▄▄█ █▄▀ █▄▄▀█ ▄▀▄██ █▄▄▄█ █
+[logic-rush]   █▄▄▄▄▄▄▄█▄▀▄█ █ ▀ █▄▀▄█▄▄▄▄▄▄▄█
+[logic-rush]   █  ███▄▄ ▀▄ █▄▄▄ █▄▄  ▀██ ▄▀▀██
+[logic-rush]   █   ▄▀ ▄▀▄▄▀ ▄▄█  █ █▄█▀▄ █████
+[logic-rush]   █ ▄██▀█▄▀   █▀█▀▀ ▀  █  █▀█▀▀ █
+[logic-rush]   ██▄▀▄██▄█▄▀▄█▀█▄▄█▄█▀█▄ ▀██ █▀█
+[logic-rush]   █ ██▀▀ ▄█▀ ▄█▄▄ ▀▀▄▀▀▄▄▀█▀▀ ▀▀█
+[logic-rush]   █ ▄ ▀█▀▄▀ ▀ ▀▄█  ▀██  █▀▄▀███▄█
+[logic-rush]   █▄█▄█▄█▄█▀█▀▄▀  ▀▀▄▀▄ ▄▄▄ ▀▄▄▄█
+[logic-rush]   █ ▄▄▄▄▄ █  ▀█▀██ ▄█▄▄ █▄█ ▄▄▀▀█
+[logic-rush]   █ █   █ ██ ▀▄▄▀▄ ▀▀▀▄▄▄▄ ▄██▄▀█
+[logic-rush]   █ █▄▄▄█ █▀▀█ ▄▄▄▄▄██▀▄█ ▀ ▄▀▄▀█
+[logic-rush]   █▄▄▄▄▄▄▄█▄▄█▄▄██▄█▄███████▄▄███
+[claim80]      CLAIM 80 berjalan di http://localhost:3080/games/claim80
+[claim80]        LAN: http://192.168.18.61:3080/games/claim80
+[claim80]      Token guru: 1234
+[glacia]       GLACIA server siap di :4000 (soal: 7500, SIMPETERI: multi)
+[glacia]       Mode multi: guru masuk dari menu Multi Permainan SIMPETERI (PIN guru = HOST_PIN)
+[tower-peek]   TOWER PEEK berjalan di port 3120
+[tower-peek]     Operator : http://localhost:3120/games/tower-peek/host   (PIN guru: 1234)
+[tower-peek]     Layar    : http://192.168.18.61:3120/games/tower-peek/layar
